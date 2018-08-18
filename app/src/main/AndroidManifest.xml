@@ -22,6 +22,9 @@
         </activity>
         <!--<meta-data android:value="5b7634adb27b0a7a74000088" android:name="UMENG_APPKEY"/>-->
         <!--<meta-data android:value="Channel ID" android:name="UMENG_CHANNEL"/>-->
+        
+        <service android:name=".custom.UmengNotificationService"/>
+        <service android:name=".custom.MyNotificationService"/>
     </application>
 
 </manifest>

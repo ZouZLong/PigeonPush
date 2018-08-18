@@ -3,7 +3,6 @@ package zzl.pigeonpush;
 import android.app.Application;
 import android.app.Notification;
 import android.content.Context;
-import android.content.Intent;
 import android.util.Log;
 import android.widget.RemoteViews;
 import android.widget.Toast;
@@ -15,6 +14,8 @@ import com.umeng.message.PushAgent;
 import com.umeng.message.UmengMessageHandler;
 import com.umeng.message.UmengNotificationClickHandler;
 import com.umeng.message.entity.UMessage;
+
+
 
 public class MyApplicition extends Application {
 
@@ -144,6 +145,7 @@ public class MyApplicition extends Application {
         mPushAgent.setNotificationPlaySound(MsgConstant.NOTIFICATION_PLAY_SERVER); //声音
         mPushAgent.setNotificationPlayLights(MsgConstant.NOTIFICATION_PLAY_SERVER);//呼吸灯
         mPushAgent.setNotificationPlayVibrate(MsgConstant.NOTIFICATION_PLAY_SERVER);//振动
+
 
     }
 
